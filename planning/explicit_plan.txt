@@ -1,4 +1,10 @@
 
+[ ] - Download completed dataframe and develop notebooks for importing
+      [ ] - Change LightGBM notebook
+      [ ] - Change RF notebook
+      [ ] - Change Tensorflow notebook
+
+
 
 [ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
       [ ] - Tune LightGBM
