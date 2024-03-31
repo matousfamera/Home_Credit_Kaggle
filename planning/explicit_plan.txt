@@ -5,7 +5,7 @@
 
 [ ] - Download completed dataframe and develop notebooks for importing, and also fix one-hot encoding and filling nan values
       [ ] - Modify LightGBM notebook
-      [ ] - Modify RF notebook
+      [ ] - Modify RF notebook (reached CV about 0.77 with tuning)
       [ ] - Modify Tensorflow notebook
 
 
