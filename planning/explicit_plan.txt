@@ -1,9 +1,9 @@
 
-[ ] - Create Excel file for submission logging
+[+] - Create Excel file for submission logging (completed 24-03-31)
       # In this file all submission will be stored. (including model parameters, CV score, LB score) That can give good information about what works and what does not.
 
 
-[ ] - Download completed dataframe and develop notebooks for importing
+[ ] - Download completed dataframe and develop notebooks for importing, and also fix one-hot encoding and filling nan values
       [ ] - Modify LightGBM notebook
       [ ] - Modify RF notebook
       [ ] - Modify Tensorflow notebook
@@ -12,6 +12,7 @@
 
 [ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
       [ ] - Tune LightGBM
+            [ ] - Use Bayesian hyperparameter tuning
       [ ] - Tune RandomForestClassifier
       [ ] - Tune Tensorflow
       [ ] - Combine the 3 models into 1 notebook
