@@ -1,12 +1,12 @@
 
 [ ] - Create Excel file for submission logging
-      In this file all submission will be stored. (including model parameters, CV score, LB score)
+      # In this file all submission will be stored. (including model parameters, CV score, LB score) That can give good information about what works and what does not.
 
 
 [ ] - Download completed dataframe and develop notebooks for importing
-      [ ] - Change LightGBM notebook
-      [ ] - Change RF notebook
-      [ ] - Change Tensorflow notebook
+      [ ] - Modify LightGBM notebook
+      [ ] - Modify RF notebook
+      [ ] - Modify Tensorflow notebook
 
 
 
@@ -18,3 +18,7 @@
       [ ] - Run a submission on Kaggle
 
 [ ] - Create version 3 notebook - generic notebook where any ensemble models can be created and deployed
+      # The notebook will be prepared to handle level 1, level 2 and level 3 ensemble models. At the header of the notebook the models will be specified. The blending operation will be defined.
+
+
+[ ] - 
