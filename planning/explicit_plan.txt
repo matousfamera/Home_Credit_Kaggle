@@ -4,9 +4,11 @@
 
 
 [ ] - Download completed dataframe and develop notebooks for importing, and also fix one-hot encoding and filling nan values
-      [ ] - Modify LightGBM notebook
-      [ ] - Modify RF notebook (reached CV about 0.77 with tuning)
-      [ ] - Modify Tensorflow notebook
+      [ ] - Modify LightGBM notebook for export/import dataframe
+      [ ] - Modify RandomForestClassifier notebook for export/import dataframe
+      [ ] - Modify Tensorflow notebook for export/import dataframe
+      [ ] - Modify RF notebook for working one-hot-encoding and nan filling(reached CV about 0.77 with tuning)
+      [ ] - Modify Tensorflow notebook for working one-hot-encoding and nan filling
 
 
 
@@ -22,4 +24,4 @@
       # The notebook will be prepared to handle level 1, level 2 and level 3 ensemble models. At the header of the notebook the models will be specified. The blending operation will be defined.
 
 
-[ ] - 
+[ ] - Develop denoising autoencoder preprocessing as input to nn
