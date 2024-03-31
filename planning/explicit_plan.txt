@@ -1,4 +1,8 @@
 
+[ ] - Create Excel file for submission logging
+      In this file all submission will be stored. (including model parameters, CV score, LB score)
+
+
 [ ] - Download completed dataframe and develop notebooks for importing
       [ ] - Change LightGBM notebook
       [ ] - Change RF notebook
