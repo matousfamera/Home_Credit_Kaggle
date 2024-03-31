@@ -1,0 +1,8 @@
+
+
+[ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
+      [ ] - Tune LightGBM
+      [ ] - Tune RandomForestClassifier
+      [ ] - Tune Tensorflow
+      [ ] - Combine the 3 models into 1 notebook
+      [ ] - Run a submission on Kaggle
