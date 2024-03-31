@@ -6,3 +6,5 @@
       [ ] - Tune Tensorflow
       [ ] - Combine the 3 models into 1 notebook
       [ ] - Run a submission on Kaggle
+
+[ ] - Create version 3 notebook - generic notebook where any ensemble models can be created and deployed
