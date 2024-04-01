@@ -3,10 +3,10 @@
       # In this file all submission will be stored. (including model parameters, CV score, LB score) That can give good information about what works and what does not.
 
 
-[ ] - Download completed dataframe and develop notebooks for importing, and also fix one-hot encoding and filling nan values
-      [ ] - Modify LightGBM notebook for export/import dataframe
+[+] - Download completed dataframe and develop notebooks for importing, and also fix one-hot encoding and filling nan values
+      [+] - Modify LightGBM notebook for export/import dataframe
       [+] - Modify RandomForestClassifier notebook for export/import dataframe
-      [] - Modify Tensorflow notebook for export/import dataframe
+      [+] - Modify Tensorflow notebook for export/import dataframe
       [+] - Modify RF notebook for working one-hot-encoding and nan filling(reached CV about 0.77 with tuning)
       [+] - Modify Tensorflow notebook for working one-hot-encoding and nan filling
 
@@ -16,7 +16,7 @@
       [ ] - Tune LightGBM
             [ ] - Use Bayesian hyperparameter tuning
       [ ] - Tune RandomForestClassifier, so far CV=0.77 but idk LB score, it could be overfitted for CV 
-      [ ] - Tune Tensorflow
+      [ ] - Tune Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
       [ ] - Combine the 3 models into 1 notebook
       [ ] - Run a submission on Kaggle
 
