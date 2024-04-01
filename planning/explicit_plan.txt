@@ -5,10 +5,10 @@
 
 [ ] - Download completed dataframe and develop notebooks for importing, and also fix one-hot encoding and filling nan values
       [ ] - Modify LightGBM notebook for export/import dataframe
-      [ ] - Modify RandomForestClassifier notebook for export/import dataframe
-      [ ] - Modify Tensorflow notebook for export/import dataframe
-      [ ] - Modify RF notebook for working one-hot-encoding and nan filling(reached CV about 0.77 with tuning)
-      [ ] - Modify Tensorflow notebook for working one-hot-encoding and nan filling
+      [+] - Modify RandomForestClassifier notebook for export/import dataframe
+      [] - Modify Tensorflow notebook for export/import dataframe
+      [+] - Modify RF notebook for working one-hot-encoding and nan filling(reached CV about 0.77 with tuning)
+      [+] - Modify Tensorflow notebook for working one-hot-encoding and nan filling
 
 
 
