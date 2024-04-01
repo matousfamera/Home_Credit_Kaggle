@@ -13,8 +13,7 @@
 
 
 [ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
-      [ ] - Tune LightGBM
-            [ ] - Use Bayesian hyperparameter tuning
+      [+] - Tune LightGBM
       [ ] - Tune RandomForestClassifier, so far CV=0.77 but idk LB score, it could be overfitted for CV 
       [ ] - Tune Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
       [ ] - Combine the 3 models into 1 notebook
