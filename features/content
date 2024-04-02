@@ -1,0 +1,5 @@
+https://www.kaggle.com/datasets/matousfamera/home-credit-2024-additional-dataset
+
+processed_000. parquet  about 530 features, they are not filtered
+processed_debug_000.parquet  dummy version of dataset, 11k rows
+processed_001.parquet 200 best features
