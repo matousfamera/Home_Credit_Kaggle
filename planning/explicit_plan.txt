@@ -12,10 +12,10 @@
 
 [ ] - Create a special notebook for Feature Preparation, Engineering
       The notebook will be used for creating features and exporting final dataframe.
-      [ ] - Create working Notebook "Home-credit-2024-feature-selection"
+      [+] - Create working Notebook "Home-credit-2024-feature-selection"
       [ ] - Update Kaggle dataset "home-credit-2024-additional-dataset" with exported dataframes
-            [ ] - processed_000.parquet, this file includes each and every feature
-            [ ] - processed_debug_000.parquet - this file includes just 11k with only about 150 columns, it is for debug purposes
+            [+] - processed_000.parquet, this file includes each and every feature
+            [+] - processed_debug_000.parquet - this file includes just 11k with only about 150 columns, it is for debug purposes
             [ ] - processed_debug_001.parquet - this file includes the 250 best features
 
 [ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
