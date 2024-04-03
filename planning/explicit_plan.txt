@@ -23,7 +23,7 @@
 [ ] - Copy the 0.575 LGB solution
       [ ] - Replicate the submission in "home-credit-2024-v2-lgb"
 
-[ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
+[ ] - Deploy the first generation of ensemble model (LGBM, XGB, NN)
       [+] - Tune LightGBM
       [+] - Tune RandomForestClassifier, it will not be used for ensemble, it is weak
       [ ] - XGBoost
