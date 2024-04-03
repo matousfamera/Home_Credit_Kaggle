@@ -20,9 +20,15 @@
       [+] - Add function "data_tranformation"
       [+] - create "processed_001_std.parquet"
 
+[ ] - Copy the 0.575 LGB solution
+      [ ] - Replicate the submission in "home-credit-2024-v2-lgb"
+
 [ ] - Deploy the first generation of ensemble model (LGBM, RF, NN)
       [+] - Tune LightGBM
-      [ ] - Tune RandomForestClassifier, so far CV=0.77 but idk LB score, it could be overfitted for CV 
+      [+] - Tune RandomForestClassifier, it will not be used for ensemble, it is weak
+      [ ] - XGBoost
+            [ ] - Create working notebook
+            [ ] - Tune the hyperparameters
       [ ] - Tune Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
       [ ] - Combine the 3 models into 1 notebook
       [ ] - Run a submission on Kaggle
