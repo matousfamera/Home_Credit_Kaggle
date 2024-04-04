@@ -30,7 +30,9 @@
       [ ] - XGBoost
             [ ] - Create working notebook
             [ ] - Tune the hyperparameters
-      [ ] - Tune Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+      [ ] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+            [+] - Creating working notebook
+            [ ] - Tune the features and hyperparameters
       [ ] - Combine the 3 models into 1 notebook
       [ ] - Run a submission on Kaggle
 
