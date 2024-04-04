@@ -4,3 +4,4 @@ processed_000. parquet  about 530 features, they are not filtered
 processed_debug_000.parquet  dummy version of dataset, 11k rows
 processed_001.parquet 200 best features
 processed_001_std.parquet  200 best features, after one-hot encoding, normalized
+processed_002.parquet  the best dataset yet, about 390 features
