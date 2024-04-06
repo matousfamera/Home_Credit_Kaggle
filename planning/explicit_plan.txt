@@ -25,14 +25,18 @@
       [ ] - Replicate the submission in "home-credit-2024-v2-lgb"
 
 [ ] - Deploy the first generation of ensemble model (LGBM, XGB, NN)
-      [+] - Tune LightGBM
+      [ ] - Tune LightGBM
+            [ ] - Pick optimal features for LightGBM
       [+] - Tune RandomForestClassifier, it will not be used for ensemble, it is weak
       [ ] - XGBoost
             [ ] - Create working notebook
             [ ] - Tune the hyperparameters
       [ ] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
             [+] - Creating working notebook
+            [ ] - Create proper dataset for Tensorflow
+            [ ] - Implement Denoising autoencoder preprocessing
             [ ] - Tune the features and hyperparameters
+      [ ] - Combine LightGBM and Tensorflow
       [ ] - Combine the 3 models into 1 notebook
       [ ] - Run a submission on Kaggle
 
@@ -40,4 +44,4 @@
       # The notebook will be prepared to handle level 1, level 2 and level 3 ensemble models. At the header of the notebook the models will be specified. The blending operation will be defined.
 
 
-[ ] - Develop denoising autoencoder preprocessing as input to nn
+
