@@ -20,9 +20,9 @@
       [+] - Add function "data_tranformation"
       [+] - create "processed_001_std.parquet"
 
-[ ] - Copy the 0.575 LGB solution
+[+] - Copy the 0.575 LGB solution
       [+] - Fix bug in get functions
-      [ ] - Replicate the submission in "home-credit-2024-v2-lgb"
+      [+] - Replicate the submission in "home-credit-2024-v2-lgb"
 
 [ ] - Deploy the first generation of ensemble model (LGBM, XGB, NN)
       [ ] - Tune LightGBM
