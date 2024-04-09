@@ -24,7 +24,7 @@
       [+] - Fix bug in get functions
       [+] - Replicate the submission in "home-credit-2024-v2-lgb"
 
-[ ] - Deploy the first generation of ensemble model (LGBM, XGB, NN)
+[ ] - Deploy the first generation of ensemble model (LGBM, CatBoost, NN)
       [+] - Tune LightGBM
       [+] - Tune RandomForestClassifier, it will not be used for ensemble, it is weak
       [ ] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
