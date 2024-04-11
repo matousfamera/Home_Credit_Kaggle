@@ -7,3 +7,4 @@ processed_001_std.parquet  200 best features, after one-hot encoding, normalized
 processed_002.parquet  the best dataset yet, about 390 features
 processed_003_1he.parquet "5751" features, about 390 features, after one-hot-encoding
 processed_003_std.parquet "5751" features, about 390 features, after one-hot-encoding and normalizing
+processed_004.parquet maximum amount of features, all aggregations, after one-hot-encoding, not normalized, more than 3000 features
