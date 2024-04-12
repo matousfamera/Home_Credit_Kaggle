@@ -24,26 +24,27 @@
       [+] - Fix bug in get functions
       [+] - Replicate the submission in "home-credit-2024-v2-lgb"
 
-[ ] - Deploy the first generation of ensemble model (LGBM, CatBoost, NN)
+[ ] - Prepare base models for ensemble model (LGBM, CatBoost, NN)
       [+] - Tune LightGBM
       [+] - Tune RandomForestClassifier, it will not be used for ensemble, it is weak
       [ ] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
             [+] - Creating working notebook
             [ ] - Create proper dataset for Tensorflow
-            [ ] - Implement PCA as input for Tensorflow
+            [+] - Implement PCA as input for Tensorflow
             [ ] - Tune the features and hyperparameters
       [ ] - CatBoost
             [ ] - Create working notebook
             [ ] - Create proper notebook, hyperparameter tuning
             [ ] - Create proper dataset as input for CatBoost
-      [ ] - Combine LGBM and CatBoost
-            [ ] - Create proper notebook
-            [ ] - Send submission
-      [ ] - Combine the 3 models into 1 notebook
-      [ ] - Run a submission on Kaggle
+    
 
 [ ] - Create version 3 notebook - generic notebook where any ensemble models can be created and deployed
       # The notebook will be prepared to handle level 1, level 2 and level 3 ensemble models. At the header of the notebook the models will be specified. The blending operation will be defined.
+      [ ] - Create Theseus-inference version 3.0
+            [ ] - Combine LGBM, CatBoost and Tensorflow
+      [ ] - Create Theseus-submission version 3.0
+            [ ] - Combine LGBM, CatBoost and Tensorflow
+            [ ] - Run a submission on Kaggle
 
 
 
