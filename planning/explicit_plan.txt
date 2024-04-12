@@ -30,12 +30,15 @@
       [ ] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
             [+] - Creating working notebook
             [ ] - Create proper dataset for Tensorflow
-            [ ] - Implement Denoising autoencoder preprocessing
+            [ ] - Implement PCA as input for Tensorflow
             [ ] - Tune the features and hyperparameters
       [ ] - CatBoost
             [ ] - Create working notebook
             [ ] - Create proper notebook, hyperparameter tuning
-      [ ] - Combine LightGBM and Tensorflow
+            [ ] - Create proper dataset as input for CatBoost
+      [ ] - Combine LGBM and CatBoost
+            [ ] - Create proper notebook
+            [ ] - Send submission
       [ ] - Combine the 3 models into 1 notebook
       [ ] - Run a submission on Kaggle
 
