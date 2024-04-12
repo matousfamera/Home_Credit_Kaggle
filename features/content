@@ -9,3 +9,4 @@ processed_003_1he.parquet "5751" features, about 390 features, after one-hot-enc
 processed_003_std.parquet "5751" features, about 390 features, after one-hot-encoding and normalizing
 processed_004.parquet maximum amount of features, all aggregations, after one-hot-encoding, not normalized, more than 3000 features
 processed_004_norm.parquet maximum amount of features, all aggregations, after one-hot-encoding, normalized, more than 3000 features
+processed_003_PCA300.parquet 300 principal components, made of 3017 features
