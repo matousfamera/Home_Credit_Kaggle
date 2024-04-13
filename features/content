@@ -11,4 +11,4 @@ processed_004.parquet maximum amount of features, all aggregations, after one-ho
 processed_004_norm.parquet maximum amount of features, all aggregations, after one-hot-encoding, normalized, more than 3000 features
 processed_003_PCA300.parquet 300 principal components, made of 2500 features
 processed_004_PCA300.parquet 300 principal components, made of 3000 features
-processed_004_PCA500[01234].parquet all features compressed into 500 principal components, dataset consists of 5 parquet files
+processed_004_PCA500_[01234].parquet all features compressed into 500 principal components, dataset consists of 5 parquet files
