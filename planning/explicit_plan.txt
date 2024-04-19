@@ -27,12 +27,12 @@
 [ ] - Prepare base models for ensemble model (LGBM, CatBoost, NN)
       [+] - Tune LightGBM
       [+] - Tune RandomForestClassifier, it will not be used for ensemble, it is weak
-      [ ] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+      [+] - Tensorflow https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
             [+] - Creating working notebook
             [+] - Create proper dataset for Tensorflow
             [+] - Implement PCA as input for Tensorflow
             [+] - Tune the features and hyperparameters
-            [ ] - Send submission
+            [+] - Send submission
       [ ] - CatBoost
             [ ] - Create working notebook
             [ ] - Create proper notebook, hyperparameter tuning
