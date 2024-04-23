@@ -39,13 +39,11 @@
             [ ] - Create proper dataset as input for CatBoost
     
 
-[ ] - Create version 3 notebook - generic notebook where any ensemble models can be created and deployed
+[+] - Create version 3 notebook - generic notebook where any ensemble models can be created and deployed
       # The notebook will be prepared to handle level 1, level 2 and level 3 ensemble models. At the header of the notebook the models will be specified. The blending operation will be defined.
-      [ ] - Create Theseus-inference version 3.0
-            [ ] - Combine LGBM, CatBoost and Tensorflow
-      [ ] - Create Theseus-submission version 3.0
-            [ ] - Combine LGBM, CatBoost and Tensorflow
-            [ ] - Run a submission on Kaggle
-
+      [+] - Create Theseus-inference version 3.0
+            [+] - Combine LGBM, CatBoost and Tensorflow
+      
+[ ] - Create high quality ensemble (LGBM, CatBoost, Tensorflow) using THESEUS
 
 
