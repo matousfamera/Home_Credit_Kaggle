@@ -1,4 +1,4 @@
-1. Configuration library
+# 1. Configuration library
   - the variable is "CONFIG_LIBRARY"
   - the keys of the library: datatype= int, value: 0 is for metamodel
   - values of the elements are libraries which represent models
@@ -10,7 +10,7 @@
       "make_data_func" - datatype=string, name of the function responsible for creating data for the specific model
       "fit_func" - datatype=string, name of the function responsible for fitting the specific model
 
-2. Make data function
+# 2. Make data function
     - the name must be specified within the "CONFIG_LIBRARY"
     - the function has no argument
     - the function creates data and saves the dataframe in .parquet file, test data and train data are in the dataframe
@@ -20,7 +20,7 @@
       3. It has to contain column "target" the datatype is int, the value is 0 or 1 or nan.
     - the return datatype is string, the string specifies the address where the .parquet is saved
 
-3. Fit function
+# 3. Fit function
     - the name must be specified withing the "CONFIG_LIBRARY"
     - the function has ONE argument, the datatype is string, the value is address of the parquet file to use, the parquet file generated with corresponding "make_data_func" is used.
     - the return value is a tuple, the first element of the tuple is class representing the model, the second is dataframe with out-of-fold predictions.
