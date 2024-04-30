@@ -43,7 +43,32 @@
       # The notebook will be prepared to handle level 1, level 2 and level 3 ensemble models. At the header of the notebook the models will be specified. The blending operation will be defined.
       [+] - Create Theseus-inference version 3.0
             [+] - Combine LGBM, CatBoost and Tensorflow
+
+#################################################################################
+#################################################################################
+#################################################################################
+
+[ ] - THESEUS program
+      Many single models will be tested and tried and evaluated. Then different combinations of single models will be tested and evaluated. High-performing metamodels will be tried for submission. There are 4 levels of development
+      A - FEATURE ENGINEERING
+            We did not focus on feature engineering almost at all. There is big potential in creating new features.
+      B - CANDIDATES PREPARATION
+            Developing of single models. Before we put the single model in the THESEUS, they have to be tested and evaluated.
+            [ ] - LGBM models for each table
+            [ ] - CatBoost models for each table
+            [ ] - Mixed model (LGBM, CatBoost) , LGBM for numerical values, CatBoost for categorical values
+
+      C - INFERENCE
+            Once we have high performing single models, we will try many combinations of the architecture in THESEUS and evaluate it.
+
+      D - SUBMISSION PLANNING
+            There is only 30 GPU hours per week. We have to be very selective what to send as submission. We have to be very effecient with the limited GPU time.
+
+#################################################################################
+#################################################################################
+#################################################################################
+
+[ ] - Choose the 2 final submissions
       
-[ ] - Create high quality ensemble (LGBM, CatBoost, Tensorflow) using THESEUS
 
 
