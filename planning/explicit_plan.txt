@@ -60,9 +60,12 @@
 
       C - INFERENCE
             Once we have high performing single models, we will try many combinations of the architecture in THESEUS and evaluate it.
-
+            [+] - Implement the idea of adding "prediction" features
+            [ ] - Implement metric hacking
       D - SUBMISSION PLANNING
             There is only 30 GPU hours per week. We have to be very selective what to send as submission. We have to be very effecient with the limited GPU time.
+            [+] - Run submission of "Notebook Home Credit (LGB + Cat ensemble)-UPDATED-sub"
+            
 
 #################################################################################
 #################################################################################
